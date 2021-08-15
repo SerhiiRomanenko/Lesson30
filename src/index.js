@@ -15,7 +15,7 @@ function debounce(fn, timer = DEFAULT_TIMER) {
     let flag = false;
 
     return function () {
-        return new Promise(function (onResolve) {
+        return new Promise(onResolve => {
             if (flag === true) {
                 return;
             } else {
