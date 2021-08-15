@@ -1,7 +1,7 @@
 'use strict';
 
 const DEFAULT_TIMER = 0;
-const DELAY = 2000;
+const DELAY = 1200;
 
 function foo() {
     const div = document.createElement('div');
